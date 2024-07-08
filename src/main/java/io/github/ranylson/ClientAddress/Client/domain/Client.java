@@ -22,7 +22,6 @@ public class Client {
     private String lastName;
 
     @Column(name = "email", nullable = false)
-    @Email
     private String email;
 
 }
