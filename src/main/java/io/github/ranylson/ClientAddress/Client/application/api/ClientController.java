@@ -51,7 +51,7 @@ public class ClientController implements ClientAPI {
     public void deleteClientById(Long id) {
         log.info("[start] ClientController - deleteClientById]");
         log.info("[idClient] {}", id);
-        clientService.deletaPessoaPorId(id);
+        clientService.deleteClientById(id);
         log.info("[finish] ClientController - deleteClientById]");
     }
 }

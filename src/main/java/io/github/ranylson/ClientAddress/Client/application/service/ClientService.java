@@ -16,5 +16,5 @@ public interface ClientService {
 
     void alters(Long id, ClientRequest clientAlterationRequest);
 
-    void deletaPessoaPorId(Long id);
+    void deleteClientById(Long id);
 }
